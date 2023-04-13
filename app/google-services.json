@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664258017432",
+    "project_id": "chatrealtime-d7a21",
+    "storage_bucket": "chatrealtime-d7a21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664258017432:android:05c84a64b46c8f8a3cb8ed",
+        "android_client_info": {
+          "package_name": "com.example.chatrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664258017432-om5f92h8f740oqvlc8lurp126t32nu86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmlZ160vXS60tLaUzdC7A7YW_wBC5ota8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664258017432-om5f92h8f740oqvlc8lurp126t32nu86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
