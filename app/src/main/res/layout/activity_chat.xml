@@ -8,45 +8,45 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView_message"
-        android:layout_width="392dp"
-        android:layout_height="620dp"
+        android:layout_width="378dp"
+        android:layout_height="547dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.495" />
+        app:layout_constraintVertical_bias="0.375" />
 
-    <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="107dp"
+
+    <EditText
+        android:id="@+id/message_input"
+        android:layout_width="279dp"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="message here"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView_message">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
 
-        <EditText
-            android:id="@+id/message_input"
-            android:layout_width="309dp"
-            android:layout_height="83dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="100dp"
-            android:ems="10"
-            android:hint="message here"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/btn_send"
-            android:layout_width="99dp"
-            android:layout_height="79dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="3dp"
-            android:layout_marginEnd="1dp"
-            android:layout_marginBottom="25dp"
-            android:text="send" />
-    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="99dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
 
     <TextView
         android:id="@+id/textView"
