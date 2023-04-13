@@ -30,8 +30,9 @@ class chat : AppCompatActivity() {
         recyclerMessage = findViewById(R.id.recyclerView_message)
         message = findViewById(R.id.message_input)
         send = findViewById(R.id.btn_send)
-        senderUid = "Yeh0MqTJyXfyKWdr3BAohfn4GDz1"
-        receiverUid = "jjcMjL53XbXA9wiUqmoUCAoWkuI3"
+
+        senderUid = intent.getStringExtra("id").toString()
+        receiverUid = "Yeh0MqTJyXfyKWdr3BAohfn4GDz1"
         send.setOnClickListener {
             val messageText = message.text.toString().trim()
             Log.d("messageText", messageText)
